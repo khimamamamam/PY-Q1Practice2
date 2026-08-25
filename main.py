@@ -12,7 +12,7 @@ f = {
     "name": "Heart",
     "age": "16",
     "description": "makulit"
-}
+} #dictionary
 
 display(type(x), target="div1") #display output in div 1
 display(type(y), target="div1")
