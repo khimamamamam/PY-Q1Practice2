@@ -14,7 +14,7 @@ f = {
     "description": "makulit"
 } #dictionary
 
-display(type(x), target="div1") #display output in div 1
+display('The data type of x is', type(x), target="div1") #display output in div 1
 display(type(y), target="div1")
 display(type(z), target="div1")
 display(type(a), target="div1")
@@ -23,3 +23,4 @@ display(type(c), target="div1")
 display(type(d), target="div1")
 display(type(e), target="div1")
 display(type(f), target="div1")
+display(f["name"], f["description"])
